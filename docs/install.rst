@@ -1,5 +1,5 @@
-First Page
-==========
+Install Page
+============
 
-I am an example page!
+I am an the install page!
 
