@@ -12,7 +12,7 @@ Contents:
    :maxdepth: 2
 
    first_page
-   
+   install
 
 
 Indices and tables
