@@ -32,3 +32,6 @@ pip-log.txt
 *~
 *.swp
 *.swo
+
+# Sphinx artifacts
+_build
