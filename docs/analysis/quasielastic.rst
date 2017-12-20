@@ -1,14 +1,5 @@
-Data Analysis
-=============
-
-Diffraction
------------
-
-Elastic Temperature Scans
--------------------------
-
 QuasiElastic
-------------
+============
 
 Fitting
 ~~~~~~~
@@ -30,5 +21,3 @@ Fit Wizard
 
 Python Scripting
 ++++++++++++++++
-
-

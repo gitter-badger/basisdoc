@@ -7,5 +7,5 @@ Description
 Instrument Webpage
 ------------------
 
-Visualization in Mantid
------------------------
+Instrument Visualization in Mantid
+----------------------------------
