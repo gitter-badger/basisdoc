@@ -11,10 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   instrument
+   instrument/index
    running_experiments
-   reduction
-   analysis
+   reduction/index
+   analysis/index
 
 
 Indices and tables
