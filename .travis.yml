@@ -5,5 +5,5 @@ python:
   - "3.5"
 sudo: false
 cache: pip
-install: pip install sphinx
+install: pip install sphinx sphinx_rtd_theme
 script: sphinx-build -nWT -b html docs _build/html
