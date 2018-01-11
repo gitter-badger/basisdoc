@@ -1,9 +1,8 @@
-basisdoc
-==============================
+===============================
+Welcome to BASIS documentation!
+===============================
 
-Documentation for BASIS data reduction and analysis
+Documentation for job monitoring, data reduction, and analysis
 
-
-LICENSE: BSD
 
 

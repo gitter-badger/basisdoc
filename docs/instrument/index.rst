@@ -1,6 +1,9 @@
 The Instrument
 ==============
 
+Brief Description
+-----------------
+
 (From the `instrument website <https://neutrons.ornl.gov/basis>`_)
 BASIS is a near-backscattering, crystal-analyzer spectrometer that provides
 very fine energy resolution, as low as 3.0 to 3.5µeV at the elastic peak
@@ -18,10 +21,10 @@ Reference: `A time-of-flight backscattering spectrometer at the Spallation
 Neutron Source, BASIS <http://dx.doi.org/10.1063/1.3626214>`_, Mamontov, E.,
 and Herwig, K. W., Review of Scientific Instruments 82, 85109 (2011).
 
-Setting BASIS as Default Instrument in Mantid
----------------------------------------------
+Selecting BASIS as Default Instrument
+-------------------------------------
 
-(If new to Mantid, consider going through the
+(If new to Mantid, it is strongly recommended to go through the
 `Basic Mantid Course <http://www.mantidproject.org/Mantid_Basic_Course>`_)
 
 Setting BASIS as default instrument allows loading data files by passing just
@@ -30,10 +33,30 @@ the run number to the
 algorithm. There are a number of ways to set BASIS as the default instrument:
 
 - When opening MantidPlot the `first time <http://www.mantidproject.org/MBC_Getting_set_up#Default_Instrument_and_Directories>`_.
-- From the `preferences dialog <https://www.mantidproject.org/MantidPlot:_Preferences_Dialog_Mantid>`_ in MantidPlot. Dialog is accessible through the Main menu View :math:`\rightarrow` Preferences.
+- From the `preferences dialog <https://www.mantidproject.org/MantidPlot:_Preferences_Dialog_Mantid>`_ in MantidPlot. Dialog is accessible through the Main Menu: View :math:`\rightarrow` Preferences.
 - From the `python API <https://www.mantidproject.org/Accessing_Settings_From_Python>`_ in a python script.
-- :math:`a^2 + b^2 = c^2`
 
-Instrument Visualization in Mantid
-----------------------------------
+Visualization
+-------------
 
+MantidPlot allows overlay of neutron data onto a representation of the
+instrument detector tubes.
+
+.. image:: ../images/instrument/BSS_76234_3D.png
+   :scale: 40 %
+
+Familiarize yourself with this
+`Instrument View <http://www.mantidproject.org/MBC_Connecting_Data_To_Instrument>`_
+and the functionality of interest:
+
+- Creating mask files
+- Aggregating intensity for arbitrary sets of detectors
+- Inspection of Bragg peaks
+
+Note: The projection *Full 3D* requires the OpenGl library which
+may not be available when *remotely logged* to bac.sns.gov,
+bac2.sns.gov, or analysis.sns.gov. When it's the case, use the
+projection *Cylindrical-Y*.
+
+.. image:: ../images/instrument/BSS_76234_cylindrical_Y.png
+   :scale: 17 %
