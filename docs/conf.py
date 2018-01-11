@@ -26,16 +26,14 @@ import sys
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.mathjax',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.napoleon',
-]
+extensions = ['sphinx.ext.autodoc',
+              'sphinx.ext.doctest',
+              'sphinx.ext.todo',
+              'sphinx.ext.coverage',
+              'sphinx.ext.mathjax',
+              'sphinx.ext.viewcode',
+              'sphinx.ext.intersphinx',
+              'sphinx.ext.napoleon']
 napoleon_google_docstring = False
 napoleon_use_param = False
 napoleon_use_ivar = True
@@ -257,8 +255,15 @@ texinfo_documents = [
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 # texinfo_show_urls = 'footnote'
 
+# Domains for intersphinx inventory file objects.inv
 intersphinx_mapping = {
-    "python": ('https://docs.python.org/', None),
-    "numpy": ('http://docs.scipy.org/doc/numpy', None),
-    "lmfit": ('https://lmfit.github.io/lmfit-py', None)
+    'python': ('https://docs.python.org/{}'.format(sys.version_info[0]), None),
+    'numpy': ('http://docs.scipy.org/doc/numpy', None),
+    'scipy': ('https://docs.scipy.org/doc/scipy/reference', None),
+    'lmfit': ('https://lmfit.github.io/lmfit-py', None),
+    'MDAnalysis': ('https://www.mdanalysis.org/docs', None)
 }
+
+# Suppress certain warnings
+suppress_warnings = ['image.nonlocal_uri']
+
