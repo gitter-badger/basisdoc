@@ -1,5 +1,5 @@
-Running a Experiment
-====================
+Running an Experiment
+=====================
 
 Monitoring Runs
 ---------------
