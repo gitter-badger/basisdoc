@@ -1,12 +1,14 @@
 .. include:: ../README.rst
 
-Contents:
+
+Contents
+========
 
 .. toctree::
    :maxdepth: 2
 
    instrument/index
-   running_experiments
+   runs/index
    reduction/index
    analysis/index
 
@@ -17,4 +19,10 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`search`
 
-`Donwload the documentation <https://readthedocs.org/projects/basisdoc/downloads>`_
+
+Download
+========
+
+`PDF <https://readthedocs.org/projects/basisdoc/downloads/pdf/latest/>`_ /
+`EPUB <https://readthedocs.org/projects/basisdoc/downloads/epub/latest/>`_ /
+`HTMLZip <https://readthedocs.org/projects/basisdoc/downloads/htmlzip/latest/>`_
