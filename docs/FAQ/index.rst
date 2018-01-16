@@ -74,8 +74,8 @@ Creating a Custom Mask File
 Questions here
 
 
-Analysis
-++++++++
+Data Analysis
++++++++++++++
 
 Diffraction Analysis
 --------------------
@@ -85,27 +85,26 @@ Elastic Temperature Scan Analysis
 ---------------------------------
 Questions here
 
-
 QuasiElastic Analysis
-+++++++++++++++++++++
+---------------------
 
 Dave
-----
+~~~~
 
 QClimax
 -------
 
 Mantid QENS Analysis
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 QENS Analysis in Convfit
-~~~~~~~~~~~~~~~~~~~~~~~~
+########################
 Questions here
 
 QENS Analysis in the Fit Wizard
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+###############################
 Questions here
 
 QENS Analysis with Python Scripting
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+###################################
 Questions here
