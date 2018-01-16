@@ -11,6 +11,7 @@ Contents
    runs/index
    reduction/index
    analysis/index
+   FAQ/index
 
 
 Indices and tables
