@@ -62,20 +62,6 @@ relevance to your sample. Ask your instrument scientist for this information.
                     Wproj=[1, -1, 0],
                     Nbins=400)
 
-Hello
-
-
-Note: During execution, BASISDiffraction will save some temporary files
-within the *Default Save Directory*, in the picture below it's */tmp*.
-
-.. image:: ../images/reduction/BASISDiffraction_1.png
-   :scale: 50 %
-
-Those files will be erased after execution, but if you rather have the files
-written somewhere else, then set the Default Save Directory to an alternative
-location. Also, the algorithm will fail if the Default Save Directory does
-not exists.
-
 
 BASISReduction
 ~~~~~~~~~~~~~~
