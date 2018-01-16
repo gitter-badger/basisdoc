@@ -4,7 +4,7 @@ The Instrument
 .. contents:: :local:
 
 Brief Description
------------------
++++++++++++++++++
 
 (From the `instrument website <https://neutrons.ornl.gov/basis>`_)
 BASIS is a near-backscattering, crystal-analyzer spectrometer that provides
@@ -24,7 +24,7 @@ Neutron Source, BASIS <http://dx.doi.org/10.1063/1.3626214>`_, Mamontov, E.,
 and Herwig, K. W., Review of Scientific Instruments 82, 85109 (2011).
 
 Selecting BASIS as Default Instrument
--------------------------------------
++++++++++++++++++++++++++++++++++++++
 - Problems, questions? Check the FAQ at :ref:`FAQ/index:Selecting BASIS as Default Instrument`
 
 (If new to Mantid, it is strongly recommended to go through the
@@ -40,7 +40,7 @@ algorithm. There are a number of ways to set BASIS as the default instrument:
 - From the `python API <https://www.mantidproject.org/Accessing_Settings_From_Python>`_ in a python script.
 
 Visualization
--------------
++++++++++++++
 - Problems, questions? Check the FAQ at :ref:`FAQ/index:Visualization`
 
 MantidPlot allows overlay of neutron data onto a representation of the

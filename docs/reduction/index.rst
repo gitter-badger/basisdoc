@@ -19,14 +19,11 @@ A set of useful
 to neutron scattering.
 
 
-Reduction algorithms
---------------------
-
 Just two algorithms are needed to reduced elastic and quasielastic neutron
 events.
 
 BASISDiffraction
-~~~~~~~~~~~~~~~~
+++++++++++++++++
 - Problems, questions? Check the FAQ at :ref:`FAQ/index:BASISDiffraction`
 
 Elastic detector tubes are arrayed along the equatorial line of the walls.
@@ -69,7 +66,7 @@ relevance to your sample. Ask your instrument scientist for this information.
 
 
 BASISReduction
-~~~~~~~~~~~~~~
+++++++++++++++
 - Problems, questions? Check the FAQ at :ref:`FAQ/index:BASISReduction`
 
 Inelastic detector tubes are located above and below the elastic detector
@@ -83,6 +80,7 @@ detectors.
 
 
 Creating a Custom Mask File
----------------------------
++++++++++++++++++++++++++++
+- Problems, questions? Check the FAQ at :ref:`FAQ/index:Creating a Custom Mask File`
 
 
