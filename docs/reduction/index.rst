@@ -1,6 +1,10 @@
 Data Reduction
 ==============
 
+
+.. contents:: :local:
+
+
 Roughly speaking, reduction is the process that yields a (static or
 dynamic) scattering structure factor from a set of *neutron events*.
 
@@ -21,8 +25,9 @@ Reduction algorithms
 Just two algorithms are needed to reduced elastic and quasielastic neutron
 events.
 
-BASISDifraction
-~~~~~~~~~~~~~~~
+BASISDiffraction
+~~~~~~~~~~~~~~~~
+- Problems, questions? Check the FAQ at :ref:`FAQ/index:BASISDiffraction`
 
 Elastic detector tubes are arrayed along the equatorial line of the walls.
 
@@ -65,6 +70,7 @@ relevance to your sample. Ask your instrument scientist for this information.
 
 BASISReduction
 ~~~~~~~~~~~~~~
+- Problems, questions? Check the FAQ at :ref:`FAQ/index:BASISReduction`
 
 Inelastic detector tubes are located above and below the elastic detector
 tubes, and are arranged into four banks of detectors. Each bank contains XXX

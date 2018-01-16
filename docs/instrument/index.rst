@@ -1,6 +1,8 @@
 The Instrument
 ==============
 
+.. contents:: :local:
+
 Brief Description
 -----------------
 
@@ -23,6 +25,7 @@ and Herwig, K. W., Review of Scientific Instruments 82, 85109 (2011).
 
 Selecting BASIS as Default Instrument
 -------------------------------------
+- Problems, questions? Check the FAQ at :ref:`FAQ/index:Selecting BASIS as Default Instrument`
 
 (If new to Mantid, it is strongly recommended to go through the
 `Basic Mantid Course <http://www.mantidproject.org/Mantid_Basic_Course>`_)
@@ -38,6 +41,7 @@ algorithm. There are a number of ways to set BASIS as the default instrument:
 
 Visualization
 -------------
+- Problems, questions? Check the FAQ at :ref:`FAQ/index:Visualization`
 
 MantidPlot allows overlay of neutron data onto a representation of the
 instrument detector tubes.

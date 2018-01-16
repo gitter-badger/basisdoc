@@ -1,8 +1,11 @@
 Monitoring Experiment Runs
 ==========================
 
+.. contents:: :local:
+
 Monitoring Runs
 ---------------
+- Problems, questions? Check the FAQ at :ref:`FAQ/index:Monitoring Runs`
 
 The `monitor website <https://monitor.sns.gov/dasmon/bss/runs/>`_
 for BASIS lists the list runs along with their status.
@@ -36,6 +39,7 @@ and DAVE (BSS_77672_sqw.dat) formats.
 
 Quick Inspection of Successful Runs
 -----------------------------------
+- Problems, questions? Check the FAQ at :ref:`FAQ/index:Quick Inspection of Successful Runs`
 
 Auto-reduced spectra for completed runs can be checked at the
 `monitor website <https://monitor.sns.gov/dasmon/bss/runs/>`_ but also

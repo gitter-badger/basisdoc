@@ -1,28 +1,42 @@
 FAQ
 ===
 
+.. contents:: :local:
+
+
 Answers to questions posed by users.
 
 
 The Instrument
---------------
+++++++++++++++
+
+Selecting BASIS as Default Instrument
+-------------------------------------
+Questions here
+
+Visualization
+-------------
 
 Questions here
 
-
 Monitoring Experiment Runs
---------------------------
+++++++++++++++++++++++++++
 
+Monitoring Runs
+---------------
+Questions here
+
+Quick Inspection of Successful Runs
+-----------------------------------
 Questions here
 
 
 Data Reduction
---------------
+++++++++++++++
 
 BASISDiffraction
-++++++++++++++++
-
-**RuntimeError: [Errno 2] No such file or directory**
+----------------
+- **RuntimeError: [Errno 2] No such file or directory**
 
 Full error stack trace:
 
@@ -51,14 +65,7 @@ Thus, either create the non-existing directory or change the Default Save
 Directory.
 
 
-
 BASISReduction
-++++++++++++++
-
-Questions here
-
-
-Data Analysis
 --------------
-
 Questions here
+
