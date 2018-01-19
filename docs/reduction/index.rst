@@ -79,6 +79,67 @@ Three banks contain Silicon-111 detectos and only one contains Silicon-311
 detectors.
 
 
+Reduction Options Stored in the Logs
+------------------------------------
+
+The reduced workspaces and nexus files (both the structure factor and the dynamic
+susceptibility) contain now
+`log entry <http://www.mantidproject.org/Accessing_Run_Information>`_
+*asString* listing the options you passed to the reduction algorithm.
+This is helpful if you forgot the options you used when you reduced the data.
+
+*Via* the python interpreter:
+
+.. code-block:: python
+
+    w = mtd['BSS_75778_sqw']
+    r=w.getRun()
+    p=r.getProperty('asString')
+    print(p.value)
+    '{"version": 1,
+      "name": "BASISReduction",
+      "properties": {"DoIndividual": true,
+                     "MonitorNorm": true,
+                     "EnergyBins": [-120.0, 0.4, 120.0],
+                     "MomentumTransferBins": [0.3, 0.2, 1.9],
+                     "DivideByVanadium": false,
+                     "MaskFile": "/SNS/BSS/shared/autoreduce/new_masks_08_12_2015/BASIS_Mask_default_111.xml",
+                     "ReflectionType": "silicon111",
+                     "RunNumbers": "75778",
+                     "NormalizeToFirst": false}
+     }'
+
+*Via* Mantidplot:
+
+Right-click on the reduced output workspace and open the logs,
+
+.. image:: ../images/reduction/reduction_log_1.png
+   :scale: 50 %
+
+Left-click on log entry *asString* to import its contents,
+
+.. image:: ../images/reduction/reduction_log_2.png
+   :scale: 50 %
+
+​Now left-click and copy the contents from the pop-up widget to the clipboard,
+
+.. image:: ../images/reduction/reduction_log_3.png
+   :scale: 50 %
+
+​and this is what you get after you paste it in some text editor,
+
+    {"version": 1,
+     "name": "BASISReduction",
+    "properties": {"DoIndividual": true,
+                   "MonitorNorm": true,
+                   "EnergyBins": [-120.0, 0.4, 120.0],
+                   "MomentumTransferBins": [0.3, 0.2, 1.9],
+                   "DivideByVanadium": false,
+                   "MaskFile": "/SNS/BSS/shared/autoreduce/new_masks_08_12_2015/BASIS_Mask_default_111.xml",
+                   "ReflectionType": "silicon111",
+                   "RunNumbers": "75778",
+                   "NormalizeToFirst": false}}
+
 Creating a Custom Mask File
 +++++++++++++++++++++++++++
 - Problems, questions? Check the FAQ at :ref:`FAQ/index:Creating a Custom Mask File`
